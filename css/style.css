@@ -1,0 +1,318 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+#articles-js {
+  height: 100vh;
+  background-color: #fe7e11;
+  width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+.btn:hover {
+  background: #2a4d0c !important;
+  color: #fff;
+}
+/* ************************************************************************
+    ** Ngo Project start here
+    ************************************************************************ */
+/* header border start */
+.header-border {
+  background: url("../images/header-border-bg.png") no-repeat;
+  padding: 5px 0px;
+}
+.header-border .header-icon {
+  text-align: right;
+}
+.header-border .header-icon .fa {
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0px 20px 0px 0px;
+}
+.header-border .header-icon .fa:hover {
+  color: #f13e4b;
+}
+/* header border end */
+
+/*header start  */
+.header {
+  width: 100%;
+}
+.header .bg-light {
+  background: #fff;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+  border-bottom: 3px solid #f13e4b;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin: 0px 20px 0px 0px;
+}
+/*header end  */
+
+/* banner start */
+.banner {
+  width: 100%;
+  padding: 80px 0px;
+  background: url("../images/banner-bg.png") center center no-repeat;
+}
+.banner h1 {
+  color: #fff;
+  font-size: 52px;
+  line-height: 62px;
+  font-weight: 400;
+}
+.banner h1 span {
+  display: block;
+  font-weight: 900;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  color: #2a4d0c;
+}
+.banner p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  font-weight: 400;
+  margin: 50px 0px;
+  width: 35%;
+}
+.banner .btn {
+  padding: 12px 30px;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 700;
+  background: #282828;
+  border-radius: 35px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0px 0px 80px;
+  border: 0px solid;
+}
+/* banner end */
+/* *********************************************************************
+    **title global tag 
+    *********************************************************************** */
+.title {
+  padding: 20px 0px;
+  text-align: center;
+}
+.title h2 {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 800;
+  color: #282828;
+}
+.title h2 span {
+  color: #f13e4b;
+}
+/* help start */
+.help {
+  padding: 40px 0px;
+}
+.help .help-box {
+  width: 100%;
+  text-align: center;
+}
+.help h3 {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #282828;
+}
+.help-box p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  padding: 0px 35px;
+  color: #282828;
+}
+.help-box:hover {
+  transition: all 0.7s;
+  opacity: 0.7;
+}
+/* help end */
+
+/* Ngo team start */
+.ngo-team {
+  background: url("../images/help-bg.png");
+}
+.ngo-team h2 {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 800;
+  color: #fff;
+  margin: 80px 0px 0px;
+}
+.ngo-team p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  padding: 0px 0px 0px 240px;
+  color: #fff;
+  margin: 40px 0px;
+}
+.ngo-team .btn {
+  padding: 12px 30px;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 700;
+  background: #282828;
+  border-radius: 35px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0px 0px 80px;
+  border: 0px solid;
+}
+.ngo-team .ngo-team-box {
+  width: 100%;
+  text-align: right;
+}
+/* Ngo team end */
+
+/* featured start */
+.featured {
+  width: 100%;
+  padding: 80px 0px;
+  background: #fff;
+}
+.featured .card .progress {
+  height: 15px;
+  border-radius: 0px;
+}
+.featured .card-body {
+  width: 100%;
+  background: url("../images/featured-bg.png");
+}
+.featured .card-body {
+  padding: 20px 0px;
+  text-align: center;
+}
+.featured .card-body h4 {
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  font-weight: 600;
+  text-align: left;
+}
+.featured .card-body h4 span {
+  float: right;
+}
+.featured .card-body h3 {
+  font-size: 22px;
+  line-height: 32px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0px;
+}
+.featured .card-body .btn {
+  margin: 0px auto;
+  padding: 10px 25px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  background: #282828;
+  border-radius: 35px;
+  text-transform: uppercase;
+  border: 0px solid;
+}
+/* featured end */
+
+/* people say start */
+.people-say {
+  width: 100%;
+  padding: 40px 0px;
+  background: url("../images/people-say-bg.png") center center no-repeat;
+}
+.people-say .title h2 {
+  color: #fff;
+  padding: 20px 0px;
+}
+.nav-tabs .nav-link.active {
+  background-color: transparent;
+  border: none;
+}
+.nav-tabs .nav-link{
+    background-color: transparent;
+    border: none;
+}
+/* tooltip */
+.people-say .people-say-box::before{
+    content: "";
+    background: #fff;
+    position: absolute;
+    border-bottom: 20px solid #ffffff;
+    border-right: 20px solid #fff;
+    top: -4%;
+    left: 90%;
+    transform: rotate(-45deg);
+}
+/* tooltip */
+.people-say .people-say-box {
+  width: 100%;
+  padding: 1px 40px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+.people-say-box span {
+  font-size: 42px;
+  color: #f13e4b;
+  font-weight: 900;
+  display: inline;
+}
+.people-say-box p {
+  font-size: 16px;
+  color: #282828;
+  line-height: 26px;
+  display: inline;
+}
+.people-say-box h2 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 42px;
+  color: #f13e4b;
+  font-weight: 600;
+}
+.people-say-box h2 span {
+  color: #282828;
+  font-size: 32px;
+  line-height: 42px;
+}
+.people-say .box1{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.people-say .box2{
+    position: absolute;
+    top:0;
+    left:0;
+}
+/* people say end */
